@@ -2,7 +2,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>HTML CHECKPOINT</title>
+    <!-- This an internal css -->
+    <!-- <style>
+      a {
+        color: red;
+        text-decoration: none;
+      }
+      h1 {
+        color: green;
+      }
+    </style> -->
   </head>
   <body>
     <!-- This is the header Section  -->
@@ -27,15 +38,19 @@
       <main>
         <section id="home">
           <img src="/profile.png" alt="My profile Photo" width="120px" />
-
-          <p>
-            I'm a new Student <br />
-            Soon I will be a Web Developer
-          </p>
+          <div class="box">
+            <p>
+              I'm a new Student <br />
+              Soon I will be a Web Developer
+            </p>
+          </div>
+          <p>hello everyone</p>
         </section>
         <hr size="2" noshade="1" color="red" />
         <section id="about">
-          <h1>About me</h1>
+          <!-- This is an inline css -->
+          <!-- <h1 style="color: blue">About me</h1> -->
+          <h1 class="title">About me</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -50,7 +65,7 @@
         </section>
         <hr size="2" noshade="1" color="red" />
         <section id="work">
-          <h1>Work</h1>
+          <h1 class="title">Work</h1>
           <table border="1">
             <tr>
               <th>Front End</th>
@@ -76,7 +91,7 @@
         </section>
         <hr size="2" noshade="1" color="red" />
         <section id="resume">
-          <h1>Resume</h1>
+          <h1 class="newTitle">Resume</h1>
           <iframe
             width="500"
             height="300"
@@ -88,7 +103,7 @@
         </section>
         <hr size="2" noshade="1" color="red" />
         <section id="contact">
-          <h1>Contact</h1>
+          <h1 class="newTitle">Contact</h1>
           <form>
             <label>Name:</label>
             <input type="text" placeholder="Type your name " />

@@ -1,0 +1,48 @@
+/* This is an external css  */
+
+.title {
+  color: blue;
+}
+
+.newTitle {
+  color: green;
+}
+
+p {
+  color: tomato;
+}
+
+.box p {
+  color: black;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#special {
+  color: black;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+/* unvisited link */
+
+a:link {
+  color: green;
+}
+
+/* visited link */
+
+a:visited {
+  color: aqua;
+}
+
+/* mouse on element */
+a:hover {
+  color: red;
+}
+
+img:hover {
+  background-color: blue;
+}
